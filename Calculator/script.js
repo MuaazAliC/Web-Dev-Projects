@@ -20,7 +20,7 @@ function calculate() {
   }
 }
 
-// ✅ Keyboard Input Support
+
 document.addEventListener('keydown', function (event) {
   const key = event.key;
   if (!isNaN(key) || ['+', '-', '*', '/', '.', '%'].includes(key)) {
